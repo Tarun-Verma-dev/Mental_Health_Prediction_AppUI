@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Mental_Health_Prediction_App",
-    "slug": "Mental_Health_Prediction_App",
+    "name": "MindCheck",
+    "slug": "mindcheck",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/icons8-mind-100.png",
     "scheme": "mentalhealthpredictionapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -12,11 +12,10 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.mindcheck.mentalhealth",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "backgroundColor": "#8fd2a4",
+        "foregroundImage": "./assets/images/icons8-mind-100.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
@@ -43,6 +42,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a1f10c73-b5e8-4020-858a-9239467119ee"
+      }
+    },
+    "owner": "devlopertarun"
   }
 }
